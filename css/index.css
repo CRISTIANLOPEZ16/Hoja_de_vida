@@ -1,0 +1,97 @@
+*{
+	margin: 0px ;
+}
+body{
+	background: #2b2b2b;
+}
+#barra{
+	min-height: 70px;
+	background: #424141;
+	height: auto;
+}
+#barra>div>input{
+	margin-top: 1%;
+}
+#barra>div>a{
+margin-top: 4%;	
+}
+#busqueda{
+	width: 60%;
+	display: inline-flex;
+}
+.ModalIni{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0,0,0,0.7);
+	opacity: 0.95;
+	top:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: none;
+}
+.contendidoModal{
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 40%;
+	min-height: 40%;
+	background-color:white;
+	margin-top: 5%;
+	border-radius: 6px;
+}
+.contenidoDiv{
+
+	color: black;
+	padding-bottom: 6em;
+}
+#logo{
+
+	height: 50px;
+	display: inherit;
+	margin: auto;
+	margin-top:4%; 
+}
+#adicional{
+	height: 20px;
+}
+#estirada{
+	width:inherit;
+	height: inherit;
+}
+#paneliz{
+
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9b/The.Matrix.glmatrix.2.png);
+	border-left: 1px solid white;
+border-top:  1px solid white;
+border-bottom:  1px solid white;
+border-radius: 6px;
+height: 300px;
+}
+input[type="email"],input[type="password"],input[type="text"],input[type="number"]{
+	width: 80%;
+}
+#datosEntrada{
+	margin: auto;
+}
+#Buscar{
+	width: 14%;
+}
+#btnCentral{
+	margin-left: 10%;
+	margin-top: 1%;
+	width: 80%;
+
+}
+@media (max-width: 767px) {
+	#busqueda{
+	margin-left: 5%;
+
+}
+#Buscar{
+	width: 30%;
+}
+}
